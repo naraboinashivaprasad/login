@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.icon-area{
+    margin-left: 10px;
+    margin-top: 18px;
+    font-family:sans-serif;
+
+}
+
+.menu-area{
+    margin-right: 10px;
+}
+
+li{
+    padding: 5px;
+    border-radius: 2px;
+    transition: transform 0.5s, background-color 0.5;
+
+}
+li:hover{
+    transform:scale(1.1);
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.main-content{
+    background-image: url("photo.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+    transition: transform 0.5s;
+
+
+}
+.services-heading{
+    text-align: center;
+}
+.card1:hover,.card2:hover,.card3:hover{
+    transform: scale(1.1)
+}
+
+.card1,.card2,.card3,.card-img1,.card-img2,.card-img3{
+    max-width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15px;
+}
+.about-us{
+    padding-top:40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color:aliceblue;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+
+}
+.side-img{
+    max-width: 400px;
+
+}
+.side-text{
+    max-width: 500px;
+    text-align: justify;
+
+}
+
+.g1,.g2,.g3,.g4,.g5,.g6{
+    max-width: 400px;
+
+}
+.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover {
+
+    transform: scale(1.1);
+
+}
+.gallery-text{
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top:80px;
+    justify-content: space-evenly;
+
+
+}
+.footer{
+    text-align: center;
+    background-color:rgba(54,28,28) ;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
